@@ -1,7 +1,18 @@
 # Predicting obesity levels using machine learning models
 
-## Table of Content
-
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning](#data-cleaning)
+- [Data Preprocessing](#data-preprocessing)
+- [Data analysis](#data-analysis)
+- [Model evaluation](#model-evaluation)
+- [Results](#results)
+- [Variable importance](#variable-importance)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+- [References](#references)
 
 ### Project Overview
 ---
@@ -28,8 +39,9 @@ During the initial preparation of the data, we performed the tasks below:
 - Splitting the data into testing and training datasets
 - Standardizing the continuous features in the testing and training datasets seperately to prevent any information leakage from the testing to the training data using ```StandardScaler()``` function.
 - For the datasets with binary and ordinal outcomes, SMOTE was employed to handle class imbalances.
-- To predict students mathematics performance, the eight machine learning models below were utilzed:
 
+### Data analysis
+- To predict students mathematics performance, the eight machine learning models below were utilzed:
   - Linear regression (for the continuous target variable) and logistic regression (for the ordinal and binary target variables)
   - Decision Tree
   - Random Forest
